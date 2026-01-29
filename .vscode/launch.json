@@ -1,6 +1,9 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+
+
     {
       "name": "Launch Django Backend",
       "type": "python",
@@ -11,7 +14,7 @@
       "justMyCode": true,
       "python": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
       "env": {
-        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
+        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend",
         "VIRTUAL_ENV": "${workspaceFolder}/octofit-tracker/backend/venv",
         "PATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin:${env:PATH}"
       }
